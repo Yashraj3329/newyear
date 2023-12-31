@@ -1,4 +1,4 @@
-var targetDate = new Date('Jan 1, 2024 00:00:00').getTime();
+var targetDate = new Date('Jan 1, 2025 00:00:00').getTime();
 
 function newYear(){
     var current = new Date().getTime();
@@ -23,7 +23,3 @@ function newYear(){
 setInterval(function(){
     newYear();
 }, 1000)
-
-
-console.log("If your are reading this i would like to wish you a very Happy New Year!!")
-console.log("The code is - syvr2239")
